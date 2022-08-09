@@ -1,0 +1,52 @@
+.display-card {
+    background-image: url(../images/bg-card-front.png);
+    width: 275px;
+    height: 150px;
+    position: relative;
+    top: 60%;
+    left: -35%;
+    z-index: 10;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: white;
+    padding: 0 20px;
+}
+.display-card div {
+    color: white;
+}
+
+.display-card__number {
+  letter-spacing: 1.5px;
+}
+.svg {
+    height: auto;
+    margin: 5% 0 0 0;
+    display: block;
+    background-size: 100% 100%;
+  }
+
+  .display-card__info {
+    font-size: 11px;
+    display: flex;
+    justify-content: space-between;
+
+  }
+
+  .display-card__info div {
+    font-size: 11px;
+  }
+
+  @media (min-width: 1120px) {
+    .display-card {
+      position: relative;
+      top: -120%;
+      left: -25%;
+      width: 447px;
+      height: 225px;
+    }
+    .display-card__number {
+      letter-spacing: 10.9px;
+    }
+  }
